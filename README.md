@@ -50,23 +50,13 @@ cd Personal-Finance-Tracker
 2. Install Dependencies
 bash
 npm install
-3. Configure Environment Variables
-Create a .env.local file in the project root directory and add your MongoDB connection string:
 
-INI
-MONGODB_URI=your_mongodb_connection_string
-Example MongoDB URI:
-
-bash
-MONGODB_URI=mongodb+srv://username:password@cluster0.mongodb.net/finance-tracker?retryWrites=true&w=majority
 4. Run the Development Server
 Start the development server:
 
 bash
 npm run dev
 Access the application in your browser:
-
-arduino
 http://localhost:3000
 🧠 Key Concepts
 Next.js App Router: Server and client components.
@@ -74,6 +64,7 @@ MongoDB with Mongoose: CRUD operations for managing transactions.
 Recharts: Visualize financial data with interactive charts.
 TailwindCSS: Create a responsive and modern UI.
 Error Handling: Optimistic UI updates for better user experience.
+
 📊 Screenshots
 Add Transaction Form
 List of Transactions with Date and Category
@@ -87,12 +78,6 @@ Export Transactions to Excel or CSV
 Monthly Budgets and Progress Tracking
 Recurring Transactions Support
 Push Notifications for Budgeting Reminders
-📦 Deployment
-You can deploy this project to any of the following platforms:
-
-Vercel (Recommended for Next.js apps)
-Netlify
-Ensure your MONGODB_URI is set as an environment variable on your hosting platform.
 
 🤝 Contributing
 Contributions are welcome! Feel free to:
@@ -106,6 +91,6 @@ This project is open-source and free to use under the MIT License.
 💬 Contact
 For any inquiries, feel free to reach out:
 
-Email: your.email@example.com
+Email: yaswanthnani998#gmail.com
 GitHub: YaswanthPalivela
 ✨ Thank you for using Personal Finance Tracker! Together, let's make managing finances easier. 🚀
